@@ -1,0 +1,109 @@
+/* Language toggle: English (default) and Spanish.
+   Every translatable element carries data-i18n="key". */
+
+const es = {
+  "skip": "Ir al contenido",
+  "nav.how": "Cómo funciona",
+  "nav.clubs": "Clubes",
+  "nav.faq": "Preguntas",
+  "nav.register": "Regístrate",
+
+  "hero.edition": "Tercera edición",
+  "hero.tag": "Las Vegas brilla con talento",
+  "hero.lede": "Un showcase gratuito de dos días. 250 jugadores seleccionados compiten frente a visores de academias de la MLS y la Liga MX. Sin cuota de inscripción. Sin promesas vendidas. Te lo ganas en la cancha.",
+  "hero.cta": "Regístrate para noviembre",
+  "hero.cta2": "Ver cómo funciona",
+
+  "facts.when": "Cuándo",
+  "facts.whenV": "3 y 4 de noviembre de 2026",
+  "facts.where": "Dónde",
+  "facts.whereV": "Las Vegas, Nevada",
+  "facts.who": "Quién",
+  "facts.whoV": "Niños y niñas nacidos entre 2006 y 2016",
+  "facts.cost": "Costo",
+  "facts.costV": "Gratis para jugar",
+
+  "mission.h": "No es un torneo.<br>No es un campamento.",
+  "mission.p1": "United For The Game es una plataforma creada para darle al talento una oportunidad real de ser visto. Recibimos más de 1,000 registros para esta edición. Alrededor de 250 jugadores serán seleccionados para jugar frente a los visores.",
+  "mission.p2": "No puedes comprar tu lugar en la final. No puedes comprar el interés de un visor. Nosotros creamos el escenario. Los jugadores se ganan la oportunidad.",
+  "mission.motto": "Una oportunidad no se vende.",
+
+  "how.h": "Cómo funciona",
+  "how.sub": "Cuatro pasos, dos días, una cancha. Cada jugador seleccionado juega dos partidos frente a los visores antes de que alguien avance.",
+  "s1.h": "Regístrate",
+  "s1.p": "Jugadores de cualquier club, ciudad o estado llenan el formulario de registro. No cuesta registrarse ni jugar.",
+  "s2.h": "Selección",
+  "s2.p": "De más de 1,000 registros, se seleccionan aproximadamente 250 jugadores y se agrupan por año de nacimiento.",
+  "s3.h": "Día de showcase",
+  "s3.d": "3 de noviembre",
+  "s3.p": "Cada jugador seleccionado juega dos partidos de 30 minutos, uno en la mañana y otro en la tarde, con visores de academias de la MLS y la Liga MX observando desde la banda.",
+  "s4.h": "La final",
+  "s4.d": "4 de noviembre",
+  "s4.p": "Los visores eligen 24 jugadores de cada categoría para regresar a un partido final. Los finalistas son dirigidos directamente por los propios visores. Los porteros tienen su propia sesión: la GK War.",
+
+  "pr.h": "Lo que prometemos y lo que no",
+  "pr.1": "Los visores están en la cancha. Representantes de academias de la MLS y la Liga MX observan los partidos directamente.",
+  "pr.2": "Cada club evalúa por su cuenta. Si un jugador destaca, el siguiente paso puede ser una conversación, una invitación a entrenar, una prueba u otro proceso. Eso queda entre el club y la familia.",
+  "pr.3": "No prometemos contratos ni lugares en academias. Lo que garantizamos es un ambiente de alto nivel visto por profesionales reales de identificación de talento.",
+  "pr.4": "El evento no tiene costo de participación. Los jugadores seleccionados solo compran los dos jerseys oficiales que usarán en los partidos.",
+
+  "clubs.h": "Quién observa",
+  "clubs.sub": "Academias confirmadas para la edición de noviembre de 2026. Se anuncian más en Instagram conforme confirman.",
+
+  "story.q": "Jared Juárez, de Las Cruces, Nuevo México, vino a nuestro último evento y fue visto por Chivas de Guadalajara y FC Juárez. Hoy juega en la academia del FC Juárez.",
+  "story.f": "Una plataforma real. Un resultado real.",
+
+  "new.h": "Novedad este año: las niñas entran a la cancha",
+  "new.p": "Por primera vez, las niñas serán parte de United For The Game. Esta es la primera parte de un anuncio más grande para la tercera edición. Sigue la cuenta de Instagram para el resto.",
+  "new.cta": "Síguenos en Instagram",
+
+  "faq.h": "Preguntas",
+  "q1.q": "¿United For The Game es real?",
+  "q1.a": "Sí. Esta es la tercera edición. Diez academias de la MLS y la Liga MX han confirmado para noviembre de 2026, y jugadores de ediciones pasadas han llegado a planteles de academias. Todo lo que anunciamos se publica en Instagram.",
+  "q2.q": "¿Cuánto cuesta?",
+  "q2.a": "Nada por registrarte, nada por jugar. Si eres seleccionado, compras los dos jerseys oficiales del evento que usarás en tus partidos. Ese es el único costo.",
+  "q3.q": "¿Quién puede registrarse?",
+  "q3.a": "Niños y niñas nacidos entre 2006 y 2016, de cualquier club, ciudad o estado. No necesitas estar en un equipo específico para aplicar.",
+  "q4.q": "¿Registrarme significa que ya estoy dentro?",
+  "q4.a": "No. El registro es la solicitud. Se seleccionan aproximadamente 250 de más de 1,000 solicitantes. A los seleccionados se les contacta directamente.",
+  "q5.q": "¿Me van a fichar si juego bien?",
+  "q5.a": "No lo prometemos, y nadie honesto puede hacerlo. Cada club hace su propia evaluación y toma su propia decisión. Lo que obtienes son dos partidos, y posiblemente una final, frente a personas cuyo trabajo es encontrar jugadores.",
+
+  "reg.h": "Gánatelo en la cancha.",
+  "reg.p": "El registro para el evento del 3 y 4 de noviembre de 2026 en Las Vegas ya está abierto.",
+  "reg.cta": "Regístrate para noviembre",
+  "reg.note": "El registro se abre en un formulario de Google.",
+
+  "foot.tag": "Las Vegas brilla con talento. #ChooseToShine",
+  "foot.legal": "United For The Game es un showcase independiente y no está afiliado a la MLS ni a la Liga MX. Los nombres de los clubes se refieren a representantes de academias que asisten."
+};
+
+const en = {};
+document.querySelectorAll("[data-i18n]").forEach(el => {
+  en[el.dataset.i18n] = el.innerHTML;
+});
+
+function setLang(lang) {
+  const dict = lang === "es" ? es : en;
+  document.querySelectorAll("[data-i18n]").forEach(el => {
+    const key = el.dataset.i18n;
+    if (dict[key] !== undefined) el.innerHTML = dict[key];
+  });
+  document.documentElement.lang = lang;
+  document.querySelectorAll(".lang button").forEach(b => {
+    b.setAttribute("aria-pressed", String(b.dataset.lang === lang));
+  });
+  try { localStorage.setItem("uftg-lang", lang); } catch (e) {}
+}
+
+document.querySelectorAll(".lang button").forEach(b => {
+  b.addEventListener("click", () => setLang(b.dataset.lang));
+});
+
+let initial = "en";
+try {
+  const saved = localStorage.getItem("uftg-lang");
+  if (saved === "es" || saved === "en") initial = saved;
+  else if ((navigator.language || "").toLowerCase().startsWith("es")) initial = "es";
+} catch (e) {}
+if (initial !== "en") setLang(initial);
