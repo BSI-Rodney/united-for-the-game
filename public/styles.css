@@ -408,3 +408,77 @@ a:focus-visible, button:focus-visible, summary:focus-visible {
   .foot { grid-template-columns: 1fr; }
   .foot-links { text-align: left; }
 }
+
+/* Where they went (success.html) ----------------------------------- */
+.nav a[aria-current="page"] { color: var(--gold-light); }
+
+.results-hero {
+  padding: clamp(56px, 10vh, 120px) var(--gutter) 0;
+}
+.results-hero .display {
+  font-size: clamp(3.2rem, 11vw, 9.5rem);
+  line-height: 0.85;
+  margin-left: -0.03em;
+}
+.results-lede {
+  max-width: 60ch;
+  margin-top: 28px;
+  font-size: clamp(1.05rem, 1.5vw, 1.25rem);
+  line-height: 1.5;
+}
+.results-facts { grid-template-columns: repeat(3, 1fr); margin-top: clamp(40px, 6vh, 72px); }
+@media (max-width: 860px) {
+  .results-facts { grid-template-columns: 1fr; }
+  .results-facts > div { padding-left: 0 !important; border-left: 0 !important; }
+  .results-facts > div + div { border-top: 1px solid var(--line); }
+}
+
+.results-group {
+  padding: clamp(56px, 9vh, 110px) var(--gutter);
+}
+.results-group + .results-group { border-top: 1px solid var(--line); }
+.results-group > h2 {
+  font-family: var(--display); font-weight: 900; text-transform: uppercase;
+  font-size: clamp(2rem, 4.2vw, 3.4rem); line-height: 0.95;
+}
+.results-group > p {
+  margin: 14px 0 36px;
+  max-width: var(--measure);
+  color: var(--muted);
+  font-size: 1.05rem;
+}
+
+.ledger {
+  list-style: none; margin: 0; padding: 0;
+  border-top: 1px solid var(--line);
+}
+.ledger li {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1.5fr);
+  gap: 12px 56px;
+  padding: 30px 0 34px;
+  border-bottom: 1px solid var(--line);
+}
+.ledger .who {
+  font-family: var(--display); font-weight: 900; text-transform: uppercase;
+  font-size: clamp(2rem, 4vw, 3.2rem); line-height: 0.95; letter-spacing: 0.005em;
+}
+.ledger .where {
+  margin-top: 10px;
+  color: var(--gold);
+  font-weight: 600;
+  font-size: 1.05rem;
+}
+.ledger .what p { max-width: 62ch; }
+.ledger .src {
+  margin-top: 14px;
+  font-size: 0.9rem;
+  color: var(--muted);
+}
+.ledger .src a { color: var(--gold-light); text-decoration: underline; text-underline-offset: 3px; }
+.ledger .src a:hover { color: var(--ink); }
+@media (max-width: 760px) {
+  .ledger li { grid-template-columns: 1fr; gap: 14px; }
+}
+.story-more { margin-top: 28px; font-family: var(--body); font-weight: 400; text-transform: none; font-size: 1rem !important; line-height: 1.5 !important; letter-spacing: 0 !important; }
+.story-more a { color: var(--gold-light); font-weight: 600; text-decoration: underline; text-underline-offset: 3px; }

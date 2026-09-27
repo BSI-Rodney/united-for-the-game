@@ -7,6 +7,8 @@ const es = {
   "nav.clubs": "Clubes",
   "nav.faq": "Preguntas",
   "nav.register": "Regístrate",
+  "nav.results": "A dónde llegaron",
+  "story.more": "Ver a dónde llegaron otros jugadores",
 
   "hero.edition": "Tercera edición",
   "hero.tag": "Las Vegas brilla con talento",
@@ -77,6 +79,9 @@ const es = {
   "foot.tag": "Las Vegas brilla con talento. #ChooseToShine",
   "foot.legal": "United For The Game es un showcase independiente y no está afiliado a la MLS ni a la Liga MX. Los nombres de los clubes se refieren a representantes de academias que asisten."
 };
+
+// Page-specific strings (e.g. success-es.js) are merged in when present.
+Object.assign(es, window.UFTG_ES_PAGE || {});
 
 const en = {};
 document.querySelectorAll("[data-i18n]").forEach(el => {
