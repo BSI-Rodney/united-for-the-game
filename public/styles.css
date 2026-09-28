@@ -482,3 +482,48 @@ a:focus-visible, button:focus-visible, summary:focus-visible {
 }
 .story-more { margin-top: 28px; font-family: var(--body); font-weight: 400; text-transform: none; font-size: 1rem !important; line-height: 1.5 !important; letter-spacing: 0 !important; }
 .story-more a { color: var(--gold-light); font-weight: 600; text-decoration: underline; text-underline-offset: 3px; }
+
+/* Section backgrounds ------------------------------------------------
+   Each image sits under a black gradient so the type keeps its contrast.
+   The gradient always resolves to solid black at the section edges so
+   sections still meet cleanly. */
+.hero {
+  background:
+    linear-gradient(to bottom, rgba(0,0,0,0.75) 0%, rgba(0,0,0,0.55) 45%, rgba(0,0,0,0.85) 80%, #000 100%),
+    url("img/hero.jpg") center 70% / cover no-repeat;
+}
+.mission {
+  background:
+    linear-gradient(to right, rgba(0,0,0,0.92) 0%, rgba(0,0,0,0.78) 55%, rgba(0,0,0,0.92) 100%),
+    url("img/turf.jpg") center / cover no-repeat;
+}
+.clubs {
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+}
+.clubs::before {
+  content: "";
+  position: absolute; inset: -8px;
+  z-index: -1;
+  background:
+    linear-gradient(to bottom, rgba(20,18,16,0.55) 0%, rgba(20,18,16,0.88) 60%, var(--coal) 100%),
+    url("img/skyline.jpg") center 35% / cover no-repeat;
+  filter: blur(1.5px);
+}
+.story {
+  background:
+    linear-gradient(to right, rgba(0,0,0,0.88) 0%, rgba(0,0,0,0.6) 60%, rgba(0,0,0,0.85) 100%),
+    url("img/stands.jpg") center / cover no-repeat;
+}
+.register {
+  background:
+    linear-gradient(to bottom, #000 0%, rgba(0,0,0,0.68) 35%, rgba(0,0,0,0.6) 70%, #000 100%),
+    url("img/tunnel.jpg") center / cover no-repeat;
+}
+.results-hero {
+  padding-bottom: clamp(40px, 6vh, 72px);
+  background:
+    linear-gradient(to bottom, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0.6) 50%, #000 100%),
+    url("img/stands.jpg") center 30% / cover no-repeat;
+}
