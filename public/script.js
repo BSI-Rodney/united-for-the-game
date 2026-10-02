@@ -49,7 +49,7 @@ const es = {
   "pr.3": "No prometemos contratos ni lugares en academias. Lo que garantizamos es un ambiente de alto nivel visto por profesionales reales de identificación de talento.",
   "pr.4": "El evento no tiene costo de participación. Los jugadores seleccionados solo compran el kit oficial de $60: dos playeras conmemorativas que usan en los partidos y se quedan después.",
 
-  "cost.h": "Un evento gratuito. Un kit.",
+  "cost.h": "Un evento gratuito. Dos playeras.",
   "cost.lede": "No hay cuota por participar en la visoría, no hay cuota de showcase y no hay cuota por ser evaluado por los visores. No vendemos oportunidades.",
   "cost.free.h": "Gratis",
   "cost.free.1": "Registrarse",
