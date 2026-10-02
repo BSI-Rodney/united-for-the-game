@@ -387,26 +387,40 @@ a:focus-visible, button:focus-visible, summary:focus-visible {
 
 /* Footer ------------------------------------------------------------ */
 .foot {
-  padding: 40px var(--gutter) 48px;
+  padding: 56px var(--gutter) 36px;
   border-top: 1px solid var(--line);
+}
+.foot-grid {
   display: grid;
-  grid-template-columns: 1fr auto;
-  gap: 24px 48px;
+  grid-template-columns: minmax(0, 1.6fr) repeat(3, minmax(0, 1fr));
+  gap: 32px 40px;
   align-items: start;
 }
-.foot-brand { display: flex; gap: 12px; align-items: center; }
+.foot-brand { display: flex; gap: 12px; align-items: flex-start; }
 .foot-name {
   font-family: var(--display); font-weight: 700; text-transform: uppercase;
   font-size: 1.25rem; letter-spacing: 0.04em; line-height: 1;
 }
-.foot-tag { color: var(--muted); font-size: 0.9rem; margin-top: 4px; }
-.foot-links { list-style: none; margin: 0; padding: 0; display: grid; gap: 6px; text-align: right; }
-.foot-links a { color: var(--gold-light); text-decoration: none; font-size: 0.95rem; }
-.foot-links a:hover { text-decoration: underline; }
-.foot-legal { grid-column: 1 / -1; font-size: 0.8rem; color: var(--muted); max-width: 80ch; }
-@media (max-width: 640px) {
-  .foot { grid-template-columns: 1fr; }
-  .foot-links { text-align: left; }
+.foot-tag { color: var(--muted); font-size: 0.9rem; margin-top: 6px; max-width: 28ch; }
+.foot-h { font-weight: 600; font-size: 0.95rem; margin-bottom: 10px; }
+.foot-col ul { list-style: none; margin: 0; padding: 0; display: grid; gap: 8px; }
+.foot-col a { color: var(--muted); text-decoration: none; font-size: 0.95rem; }
+.foot-col a:hover { color: var(--gold-light); }
+.foot-bar {
+  margin-top: 44px; padding-top: 20px;
+  border-top: 1px solid var(--line);
+  display: flex; justify-content: space-between; gap: 24px 48px; flex-wrap: wrap;
+}
+.foot-legal { font-size: 0.8rem; color: var(--muted); max-width: 70ch; margin: 0; }
+.foot-credit { font-size: 0.8rem; color: var(--muted); margin: 0; white-space: nowrap; }
+.foot-credit a { color: var(--gold-light); text-decoration: none; }
+.foot-credit a:hover { text-decoration: underline; }
+@media (max-width: 900px) {
+  .foot-grid { grid-template-columns: 1fr 1fr; }
+  .foot-brand { grid-column: 1 / -1; }
+}
+@media (max-width: 480px) {
+  .foot-grid { grid-template-columns: 1fr; }
 }
 
 /* Where they went (success.html) ----------------------------------- */
@@ -536,9 +550,6 @@ a:focus-visible, button:focus-visible, summary:focus-visible {
 .btn-sub { font-size: 0.85em; font-weight: 500; opacity: 0.8; }
 .new-note { margin-top: 18px !important; font-size: 0.95rem !important; color: var(--muted); max-width: 52ch; }
 
-.foot-credit { grid-column: 1 / -1; font-size: 0.85rem; color: var(--muted); }
-.foot-credit a { color: var(--gold-light); text-decoration: none; }
-.foot-credit a:hover { text-decoration: underline; }
 
 /* Cost ---------------------------------------------------------------- */
 .cost {
