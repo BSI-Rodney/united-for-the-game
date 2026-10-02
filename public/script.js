@@ -83,6 +83,7 @@ const es = {
   "reg.note": "Cada uno se abre en un formulario de Google. A los seleccionados se les contacta directamente.",
 
   "foot.tag": "Las Vegas brilla con talento. #ChooseToShine",
+  "foot.credit": "Desarrollado y alojado por",
   "foot.legal": "United For The Game es un showcase independiente y no está afiliado a la MLS ni a la Liga MX. Los nombres de los clubes se refieren a representantes de academias que asisten."
 };
 

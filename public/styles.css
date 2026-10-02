@@ -535,3 +535,7 @@ a:focus-visible, button:focus-visible, summary:focus-visible {
 .reg-choices .btn { display: inline-flex; align-items: baseline; gap: 10px; }
 .btn-sub { font-size: 0.85em; font-weight: 500; opacity: 0.8; }
 .new-note { margin-top: 18px !important; font-size: 0.95rem !important; color: var(--muted); max-width: 52ch; }
+
+.foot-credit { grid-column: 1 / -1; font-size: 0.85rem; color: var(--muted); }
+.foot-credit a { color: var(--gold-light); text-decoration: none; }
+.foot-credit a:hover { text-decoration: underline; }
