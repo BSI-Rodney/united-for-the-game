@@ -600,3 +600,9 @@ a:focus-visible, button:focus-visible, summary:focus-visible {
 .kit-grid img { display: block; width: 100%; height: auto; }
 .kit-cap { margin-top: 10px; font-weight: 600; font-size: 0.95rem; }
 @media (max-width: 560px) { .kit-grid { grid-template-columns: 1fr; } }
+.new {
+  background:
+    linear-gradient(to right, rgba(20,18,16,0.96) 0%, rgba(20,18,16,0.82) 50%, rgba(20,18,16,0.55) 100%),
+    url("img/girls.jpg") 0% 62% / 150% auto no-repeat;
+}
+@media (max-width: 760px) { .new { background-size: cover; background-position: 60% 60%; } }
