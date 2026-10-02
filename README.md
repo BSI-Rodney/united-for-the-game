@@ -3,7 +3,7 @@
 Site for United For The Game, a free youth soccer showcase in Las Vegas
 where selected players compete in front of MLS and Liga MX academy scouts.
 
-- Live: https://united-for-the-game.pages.dev
+- Live: https://www.united-for-the-game.com (Cloudflare Pages, also at https://united-for-the-game.pages.dev)
 - Instagram: https://www.instagram.com/united_for_the_game/
 
 ## Files
