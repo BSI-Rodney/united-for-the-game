@@ -20,6 +20,14 @@ python3 -m http.server 8000 --directory public
 
 Then open http://localhost:8000
 
+## Registration shortcuts
+
+- `boys.united-for-the-game.com` and `/boys` redirect to the boys' Google Form
+- `girls.united-for-the-game.com` and `/girls` redirect to the girls' Google Form
+
+Subdomain redirects live in `functions/_middleware.js`; path redirects in `public/_redirects`.
+To change a form link, update both files.
+
 ## Deploy
 
 Hosted on Cloudflare Pages (project `united-for-the-game`). After committing changes:

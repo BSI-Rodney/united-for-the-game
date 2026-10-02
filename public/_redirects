@@ -1,0 +1,4 @@
+# Short paths to the registration forms (also reachable as boys./girls. subdomains)
+/boys   https://docs.google.com/forms/d/e/1FAIpQLSePlVXckshqFRbbJIevNSRCanG1snQ5WMkbiM26uis3wpOo-A/viewform 302
+/girls  https://docs.google.com/forms/d/e/1FAIpQLSfdWi_WTfTcO3S3W0piuUCB4fBnPrTFHa3G9qvYtv4aIpq_Ag/viewform 302
+/register  /#register  302
