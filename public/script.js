@@ -94,7 +94,7 @@ const es = {
   "q3.q": "¿Quién puede registrarse?",
   "q3.a": "Niños nacidos entre 2006 y 2016, y niñas nacidas en 2012, 2013 o 2014. Cualquier club, ciudad o estado. No necesitas estar en un equipo específico para aplicar. Niños y niñas usan formularios de registro separados.",
   "q4.q": "¿Registrarme significa que ya estoy dentro?",
-  "q4.a": "No. El registro es la solicitud. Se seleccionan aproximadamente 250 de más de 1,000 solicitantes. A los seleccionados se les contacta directamente.",
+  "q4.a": "Todavía no. Registrarte pone tu nombre frente a los organizadores, que revisan a cada jugador y eligen aproximadamente 250 de más de 1,000. Si eres seleccionado, nos comunicaremos contigo directamente.",
   "q5.q": "¿Me van a fichar si juego bien?",
   "q5.a": "No lo prometemos, y nadie honesto puede hacerlo. Cada club hace su propia evaluación y toma su propia decisión. Lo que obtienes son dos partidos, y posiblemente una final, frente a personas cuyo trabajo es encontrar jugadores.",
 
