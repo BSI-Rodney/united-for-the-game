@@ -9,7 +9,7 @@ window.UFTG_ES_PAGE = {
   "r.f2": "Academias confirmadas para noviembre",
   "r.f2v": "10, entre MLS y Liga MX",
   "r.f3": "Costo para el jugador",
-  "r.f3v": "Dos jerseys del evento",
+  "r.f3v": "Kit de $60, dos playeras, solo si es seleccionado",
 
   "g1.h": "Dentro de una academia profesional",
   "g1.p": "Jugadores que fueron vistos en United For The Game y hoy entrenan o firmaron con un club profesional.",

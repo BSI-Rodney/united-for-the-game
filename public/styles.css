@@ -539,3 +539,45 @@ a:focus-visible, button:focus-visible, summary:focus-visible {
 .foot-credit { grid-column: 1 / -1; font-size: 0.85rem; color: var(--muted); }
 .foot-credit a { color: var(--gold-light); text-decoration: none; }
 .foot-credit a:hover { text-decoration: underline; }
+
+/* Cost ---------------------------------------------------------------- */
+.cost {
+  padding: clamp(72px, 12vh, 140px) var(--gutter);
+  border-top: 1px solid var(--line);
+}
+.cost-head { max-width: var(--measure); margin-bottom: 44px; }
+.cost-head p { margin-top: 16px; font-size: 1.15rem; }
+.cost-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1.4fr);
+  gap: 0;
+  border-top: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+}
+.cost-col { padding: 28px 32px 32px 0; }
+.cost-col + .cost-col { padding-left: 32px; border-left: 1px solid var(--line); }
+.cost-col h3 {
+  font-family: var(--display); font-weight: 900; text-transform: uppercase;
+  font-size: clamp(1.8rem, 3.2vw, 2.6rem); line-height: 1;
+  display: flex; align-items: baseline; justify-content: space-between; gap: 16px;
+  margin-bottom: 18px;
+}
+.cost-price { color: var(--gold); white-space: nowrap; }
+.cost-col ul { list-style: none; margin: 0; padding: 0; }
+.cost-col li { padding: 10px 0 10px 22px; position: relative; border-top: 1px solid var(--line); }
+.cost-col li::before {
+  content: ""; position: absolute; left: 0; top: 19px;
+  width: 8px; height: 8px; background: var(--gold); transform: rotate(45deg);
+}
+.cost-kit p + p { margin-top: 0.9em; }
+.cost-clarify { margin-top: 28px; max-width: 70ch; color: var(--muted); }
+.cost-motto {
+  margin-top: 28px;
+  font-family: var(--display); font-weight: 900; text-transform: uppercase;
+  font-size: clamp(1.8rem, 3.6vw, 2.8rem); line-height: 1; color: var(--gold);
+}
+@media (max-width: 760px) {
+  .cost-grid { grid-template-columns: 1fr; }
+  .cost-col { padding: 24px 0; }
+  .cost-col + .cost-col { padding-left: 0; border-left: 0; border-top: 1px solid var(--line); }
+}
