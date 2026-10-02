@@ -581,3 +581,22 @@ a:focus-visible, button:focus-visible, summary:focus-visible {
   .cost-col { padding: 24px 0; }
   .cost-col + .cost-col { padding-left: 0; border-left: 0; border-top: 1px solid var(--line); }
 }
+
+/* Kit gallery --------------------------------------------------------- */
+.kit { margin-top: 56px; }
+.kit h3 {
+  font-family: var(--display); font-weight: 900; text-transform: uppercase;
+  font-size: clamp(1.8rem, 3.2vw, 2.6rem); line-height: 1;
+}
+.kit > p { margin: 10px 0 22px; color: var(--muted); }
+.kit-gk-h { margin-top: 48px; }
+.kit-grid {
+  list-style: none; margin: 0; padding: 0;
+  display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 20px;
+  max-width: 980px;
+}
+.kit-grid a { display: block; border: 1px solid var(--line); border-radius: 2px; overflow: hidden; background: #000; }
+.kit-grid a:hover { border-color: var(--gold); }
+.kit-grid img { display: block; width: 100%; height: auto; }
+.kit-cap { margin-top: 10px; font-weight: 600; font-size: 0.95rem; }
+@media (max-width: 560px) { .kit-grid { grid-template-columns: 1fr; } }
