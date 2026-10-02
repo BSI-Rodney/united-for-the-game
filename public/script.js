@@ -12,7 +12,7 @@ const es = {
 
   "hero.edition": "Tercera edición",
   "hero.tag": "Las Vegas brilla con talento",
-  "hero.lede": "Un showcase gratuito de dos días. 250 jugadores seleccionados compiten frente a visores de academias de la MLS y la Liga MX. Sin cuota de inscripción. Sin promesas vendidas. Te lo ganas en la cancha.",
+  "hero.lede": "Un showcase gratuito de dos días. Los jugadores seleccionados compiten frente a visores de academias de la MLS y la Liga MX. Este año, por primera vez, las niñas nacidas de 2012 a 2014 también entran a la cancha. Sin cuota de inscripción. Sin promesas vendidas. Te lo ganas en la cancha.",
   "hero.cta": "Regístrate para noviembre",
   "hero.cta2": "Ver cómo funciona",
 
@@ -21,7 +21,7 @@ const es = {
   "facts.where": "Dónde",
   "facts.whereV": "Las Vegas, Nevada",
   "facts.who": "Quién",
-  "facts.whoV": "Niños y niñas nacidos entre 2006 y 2016",
+  "facts.whoV": "Niños nacidos 2006–2016. Niñas nacidas 2012–2014.",
   "facts.cost": "Costo",
   "facts.costV": "Gratis para jugar",
 
@@ -33,7 +33,7 @@ const es = {
   "how.h": "Cómo funciona",
   "how.sub": "Cuatro pasos, dos días, una cancha. Cada jugador seleccionado juega dos partidos frente a los visores antes de que alguien avance.",
   "s1.h": "Regístrate",
-  "s1.p": "Jugadores de cualquier club, ciudad o estado llenan el formulario de registro. No cuesta registrarse ni jugar.",
+  "s1.p": "Jugadores de cualquier club, ciudad o estado llenan el formulario de registro. Niños y niñas se registran en formularios separados. No cuesta registrarse ni jugar.",
   "s2.h": "Selección",
   "s2.p": "De más de 1,000 registros, se seleccionan aproximadamente 250 jugadores y se agrupan por año de nacimiento.",
   "s3.h": "Día de showcase",
@@ -50,14 +50,18 @@ const es = {
   "pr.4": "El evento no tiene costo de participación. Los jugadores seleccionados solo compran los dos jerseys oficiales que usarán en los partidos.",
 
   "clubs.h": "Quién observa",
-  "clubs.sub": "Academias confirmadas para la edición de noviembre de 2026. Se anuncian más en Instagram conforme confirman.",
+  "clubs.sub": "Academias y organizaciones confirmadas para la edición de noviembre de 2026. Se anuncian más en Instagram conforme confirman.",
+  "org.fmf": "Federación Mexicana de Fútbol, niñas 2012–2014",
+  "org.hijar": "Representación de jugadores",
+  "org.intercups": "Becas en Europa",
 
   "story.q": "Jared Juárez, de Las Cruces, Nuevo México, vino a nuestro último evento y fue visto por Chivas de Guadalajara y FC Juárez. Hoy juega en la academia del FC Juárez.",
   "story.f": "Una plataforma real. Un resultado real.",
 
-  "new.h": "Novedad este año: las niñas entran a la cancha",
-  "new.p": "Por primera vez, las niñas serán parte de United For The Game. Esta es la primera parte de un anuncio más grande para la tercera edición. Sigue la cuenta de Instagram para el resto.",
-  "new.cta": "Síguenos en Instagram",
+  "new.h": "Niñas nacidas de 2012 a 2014: el registro está abierto",
+  "new.p": "Por primera vez, las niñas son parte de United For The Game. El miércoles 4 de noviembre, jugadoras nacidas en 2012, 2013 y 2014 serán observadas por visores de El Camino, el programa de identificación de la Federación Mexicana de Fútbol para jugadoras mexicoamericanas. Es gratis, no importa en qué club juegues, y es un registro independiente del formulario de los niños.",
+  "new.cta": "Registrar a una niña (2012–2014)",
+  "new.note": "Los organizadores dicen que esta es solo la primera categoría femenil, y que vienen más.",
 
   "faq.h": "Preguntas",
   "q1.q": "¿United For The Game es real?",
@@ -65,16 +69,18 @@ const es = {
   "q2.q": "¿Cuánto cuesta?",
   "q2.a": "Nada por registrarte, nada por jugar. Si eres seleccionado, compras los dos jerseys oficiales del evento que usarás en tus partidos. Ese es el único costo.",
   "q3.q": "¿Quién puede registrarse?",
-  "q3.a": "Niños y niñas nacidos entre 2006 y 2016, de cualquier club, ciudad o estado. No necesitas estar en un equipo específico para aplicar.",
+  "q3.a": "Niños nacidos entre 2006 y 2016, y niñas nacidas en 2012, 2013 o 2014. Cualquier club, ciudad o estado. No necesitas estar en un equipo específico para aplicar. Niños y niñas usan formularios de registro separados.",
   "q4.q": "¿Registrarme significa que ya estoy dentro?",
   "q4.a": "No. El registro es la solicitud. Se seleccionan aproximadamente 250 de más de 1,000 solicitantes. A los seleccionados se les contacta directamente.",
   "q5.q": "¿Me van a fichar si juego bien?",
   "q5.a": "No lo prometemos, y nadie honesto puede hacerlo. Cada club hace su propia evaluación y toma su propia decisión. Lo que obtienes son dos partidos, y posiblemente una final, frente a personas cuyo trabajo es encontrar jugadores.",
 
   "reg.h": "Gánatelo en la cancha.",
-  "reg.p": "El registro para el evento del 3 y 4 de noviembre de 2026 en Las Vegas ya está abierto.",
+  "reg.p": "El registro para el evento del 3 y 4 de noviembre de 2026 en Las Vegas ya está abierto. Elige el formulario que corresponde al jugador o jugadora.",
+  "reg.boys": "Niños",
+  "reg.girls": "Niñas",
   "reg.cta": "Regístrate para noviembre",
-  "reg.note": "El registro se abre en un formulario de Google.",
+  "reg.note": "Cada uno se abre en un formulario de Google. A los seleccionados se les contacta directamente.",
 
   "foot.tag": "Las Vegas brilla con talento. #ChooseToShine",
   "foot.legal": "United For The Game es un showcase independiente y no está afiliado a la MLS ni a la Liga MX. Los nombres de los clubes se refieren a representantes de academias que asisten."

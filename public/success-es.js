@@ -46,5 +46,5 @@ window.UFTG_ES_PAGE = {
 
   "rc.h": "¿Quién sigue?",
   "rc.p": "La próxima edición es el 3 y 4 de noviembre de 2026 en Las Vegas. El registro está abierto y es gratis.",
-  "rc.note": "A los jugadores seleccionados se les contacta directamente."
+  "rc.note": "Cada uno se abre en un formulario de Google. A los seleccionados se les contacta directamente."
 };

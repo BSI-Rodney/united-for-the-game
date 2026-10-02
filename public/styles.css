@@ -527,3 +527,11 @@ a:focus-visible, button:focus-visible, summary:focus-visible {
     linear-gradient(to bottom, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0.6) 50%, #000 100%),
     url("img/stands.jpg") center 30% / cover no-repeat;
 }
+
+/* Register: two forms side by side ---------------------------------- */
+.reg-choices {
+  display: flex; flex-wrap: wrap; justify-content: center; gap: 14px;
+}
+.reg-choices .btn { display: inline-flex; align-items: baseline; gap: 10px; }
+.btn-sub { font-size: 0.85em; font-weight: 500; opacity: 0.8; }
+.new-note { margin-top: 18px !important; font-size: 0.95rem !important; color: var(--muted); max-width: 52ch; }
